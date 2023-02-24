@@ -8,3 +8,8 @@ To use any of these functions, simply add
 ```
 and the function in your C program, use make to create the library and then compile with the library. 
 
+Making the library libft.a:
+![Compilation](images/Compilation.png)
+
+Deleting the object files and library:
+![Cleaning](image/Full\ Clean.png)
