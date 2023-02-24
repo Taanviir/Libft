@@ -12,4 +12,4 @@ Making the library libft.a:
 ![Compilation](images/Compilation.png)
 
 Deleting the object files and library:
-![Cleaning](image/"Full Clean".png)
+![Cleaning](image/Full_Clean.png)
