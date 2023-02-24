@@ -4,6 +4,7 @@ After finishing my Libft, I did the next two projects, ft_printf (where I had to
 
 To use any of these functions, simply add
 ```
-#include "(header file).h"
+#include "libft.h"
 ```
 and the function in your C program, use make to create the library and then compile with the library. 
+
