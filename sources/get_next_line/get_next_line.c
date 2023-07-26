@@ -6,11 +6,11 @@
 /*   By: tanas <tanas@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 15:21:35 by tanas             #+#    #+#             */
-/*   Updated: 2023/01/02 12:28:24 by tanas            ###   ########.fr       */
+/*   Updated: 2023/07/27 01:49:26 by tanas            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "libft.h"
 
 // finds a line and returns it
 char	*get_line(char *stash)

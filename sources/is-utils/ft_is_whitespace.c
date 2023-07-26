@@ -1,20 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
+/*   ft_is_whitespace.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tanas <tanas@student.42.fr>                +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/06 11:41:08 by tanas             #+#    #+#             */
-/*   Updated: 2022/11/14 14:11:06 by tanas            ###   ########.fr       */
+/*   Created: 2023/07/08 14:58:01 by codespace         #+#    #+#             */
+/*   Updated: 2023/07/08 14:58:36 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalpha(int c)
+bool    ft_is_whitespace(char c)
 {
-	if ((c >= 'a' && c <= 'z') || ((c >= 'A' && c <= 'Z')))
-		return (1);
-	return (0);
+    return (c == ' ' || c == '\t' || c == '\r' || c == '\n' || c == '\v');
 }

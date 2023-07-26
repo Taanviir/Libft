@@ -6,11 +6,11 @@
 /*   By: tanas <tanas@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/11 16:04:08 by tanas             #+#    #+#             */
-/*   Updated: 2022/12/13 13:20:32 by tanas            ###   ########.fr       */
+/*   Updated: 2023/07/27 01:49:43 by tanas            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
 int	ft_print_pointer(size_t pointer, char *base)
 {

@@ -1,24 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_number.c                                  :+:      :+:    :+:   */
+/*   ft_error.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tanas <tanas@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/11 13:44:42 by tanas             #+#    #+#             */
-/*   Updated: 2023/07/27 01:49:48 by tanas            ###   ########.fr       */
+/*   Created: 2023/03/26 16:50:52 by tanas             #+#    #+#             */
+/*   Updated: 2023/06/18 17:58:14 by tanas            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_print_number(int n)
+void	ft_error(char *message, int err)
 {
-	char	*number_as_string;
-	int		length_of_print;
-
-	number_as_string = ft_itoa(n);
-	length_of_print = ft_print_string(number_as_string);
-	free(number_as_string);
-	return (length_of_print);
+	ft_putendl_fd(message, 1);
+	exit(err);
 }

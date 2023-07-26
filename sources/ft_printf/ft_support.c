@@ -6,11 +6,11 @@
 /*   By: tanas <tanas@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/17 13:57:49 by tanas             #+#    #+#             */
-/*   Updated: 2022/12/17 14:00:06 by tanas            ###   ########.fr       */
+/*   Updated: 2023/07/27 01:49:29 by tanas            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
 // ft_strlen
 size_t	ft_strlen(const char *s)

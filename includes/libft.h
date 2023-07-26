@@ -6,7 +6,7 @@
 /*   By: tanas <tanas@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 12:35:15 by tanas             #+#    #+#             */
-/*   Updated: 2023/07/27 01:41:41 by tanas            ###   ########.fr       */
+/*   Updated: 2023/07/27 01:45:52 by tanas            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define LIBFT_H
 
 # include <stdarg.h>
+# include <stdbool.h>
 # include <stdint.h>
 # include <stdlib.h>
 # include <unistd.h>
@@ -28,12 +29,16 @@ typedef struct s_list
 #  define BUFFER_SIZE 1000
 # endif
 
+// ---------------------- ERROR-UTILS ------------------------------------
+void	ft_error(char *message, int err);
+
 // ---------------------- IS-UTILS ---------------------------------------
-int		ft_isalnum(int c);
-int		ft_isalpha(int c);
-int		ft_isascii(int c);
-int		ft_isdigit(int c);
-int		ft_isprint(int c);
+bool	ft_is_alnum(int c);
+bool	ft_is_alpha(int c);
+bool	ft_is_ascii(int c);
+bool	ft_is_digit(int c);
+bool	ft_is_print(int c);
+bool	ft_is_whitespace(char c);
 
 // ---------------------- LINKED LIST ------------------------------------
 t_list	*ft_lstnew(void *content);
