@@ -6,7 +6,7 @@
 /*   By: tanas <tanas@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 12:35:15 by tanas             #+#    #+#             */
-/*   Updated: 2023/07/27 01:45:52 by tanas            ###   ########.fr       */
+/*   Updated: 2023/07/29 13:30:16 by tanas            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,9 +91,6 @@ int		ft_toupper(int c);
 
 // ---------------------- GET-NEXT-LINE ----------------------------------
 char	*get_next_line(int fd);
-char	*get_line(char *str);
-char	*read_file(int fd, char *stash);
-char	*update_stash(char *old_stash);
 
 // ---------------------- FT-PRINTF --------------------------------------
 int		ft_printf(const char *str, ...);

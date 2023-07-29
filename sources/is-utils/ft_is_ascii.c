@@ -3,16 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_is_ascii.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: tanas <tanas@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 11:49:05 by tanas             #+#    #+#             */
-/*   Updated: 2023/07/08 14:57:24 by codespace        ###   ########.fr       */
+/*   Updated: 2023/07/29 12:42:23 by tanas            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// 0 returned if no ascii char found and 1 returned if found
+/**
+ * @brief Checks if the given character is an ASCII character.
+ *
+ * @param c The character to be checked.
+ * @return true if 'c' is an ASCII character, false otherwise.
+ */
 bool	ft_is_ascii(int c)
 {
 	return (c >= 0 && c <= 127);

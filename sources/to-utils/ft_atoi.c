@@ -6,12 +6,18 @@
 /*   By: tanas <tanas@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 09:23:32 by tanas             #+#    #+#             */
-/*   Updated: 2022/12/03 15:59:25 by tanas            ###   ########.fr       */
+/*   Updated: 2023/07/29 13:05:30 by tanas            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Converts the initial portion of the string 'str' to an integer.
+ *
+ * @param str The input string to convert.
+ * @return The converted integer value.
+ */
 int	ft_atoi(const char *str)
 {
 	int	sign;

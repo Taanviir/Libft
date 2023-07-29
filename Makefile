@@ -6,7 +6,7 @@
 #    By: tanas <tanas@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/27 01:47:38 by tanas             #+#    #+#              #
-#    Updated: 2023/07/27 01:50:58 by tanas            ###   ########.fr        #
+#    Updated: 2023/07/29 13:45:03 by tanas            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,8 +15,7 @@ C_FLAGS = -Wall -Wextra -Werror -ggdb3
 
 SRCS_DIR = sources/
 SRCS_LIST = error-utils/ft_error.c \
-			ft_printf/ft_print_char.c ft_printf/ft_print_hex.c ft_printf/ft_print_number.c ft_printf/ft_print_pointer.c \
-			ft_printf/ft_print_string.c ft_printf/ft_print_unsigned.c ft_printf/ft_printf.c \
+			ft_printf/placeholders.c ft_printf/placeholders2.c ft_printf/ft_printf.c \
 			get_next_line/get_next_line.c \
 			is-utils/ft_is_alnum.c is-utils/ft_is_alpha.c is-utils/ft_is_ascii.c is-utils/ft_is_digit.c is-utils/ft_is_print.c is-utils/ft_is_whitespace.c\
 			linked-list/ft_lstadd_back.c linked-list/ft_lstadd_front.c linked-list/ft_lstclear.c linked-list/ft_lstdelone.c \

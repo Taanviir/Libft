@@ -3,16 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_is_print.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
+/*   By: tanas <tanas@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 11:53:46 by tanas             #+#    #+#             */
-/*   Updated: 2023/07/08 14:57:14 by codespace        ###   ########.fr       */
+/*   Updated: 2023/07/29 12:43:09 by tanas            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// 0 returned if no printable char found and 1 returned if found
+/**
+ * @brief Checks if the given character is a printable ASCII character.
+ *
+ * @param c The character to be checked.
+ * @return true if 'c' is a printable character, false otherwise.
+ */
 bool	ft_is_print(int c)
 {
 	return (c >= 32 && c <= 126);

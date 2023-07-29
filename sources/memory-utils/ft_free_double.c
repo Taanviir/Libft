@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/**
+ * @brief Frees memory allocated to a double pointer and sets it to NULL.
+ *
+ * @param double_ptr The double pointer to free.
+ */
 void	ft_free_double(void **double_ptr)
 {
 	int	i;
