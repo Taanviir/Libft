@@ -60,7 +60,7 @@ static char	*read_file(int fd, char *stash)
 			return (NULL);
 		}
 		buffer[bytes_read] = '\0';
-		stash = ft_strjoin(stash, buffer);
+		stash = ft_strjoin_m(stash, buffer);
 	}
 	free(buffer);
 	return (stash);
